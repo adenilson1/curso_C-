@@ -22,7 +22,7 @@ class Program
             case 1: Console.WriteLine(numero1 + numero2); break;
             case 2: Console.WriteLine(numero1 - numero2); break;
             case 3: Console.WriteLine(numero1 * numero2); break;
-            case 4: Console.WriteLine(numero1 / numero2); break;
+            case 4: Math.Round(Console.WriteLine(numero1 / numero2)); break;
             default: Console.WriteLine("Opção inválida"); goto inicio; break;
         }
 
